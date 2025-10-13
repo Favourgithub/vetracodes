@@ -82,6 +82,7 @@ const Home = () => {
               <img
                 src={heroImage}
                 alt="Design workspace"
+                loading="lazy"
                 className="relative rounded-3xl shadow-2xl w-full h-auto object-cover"
               />
             </div>
