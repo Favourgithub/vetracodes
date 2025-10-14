@@ -38,8 +38,8 @@ const Navbar = () => {
   return (
     <nav
       aria-label="Main Navigation"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "bg-transparent"
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out ${
+        isScrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "md:bg-transparent bg-background/95 backdrop-blur-md"
       }`}
     >
       <div className="container mx-auto px-4">
